@@ -84,25 +84,32 @@ a.none{
 .shadow-1{
 	background-color: rgba(1, 1, 1, 0.5);
 	margin-top: 15%;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
+	padding-bottom: 2%;
 }
 .bcg-4{
 	background-image: url(../img/fondo4.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-bottom: 10%;
+	padding-bottom: 3%;
+
 }
 .bcg-5{
 	background-image: url(../img/fondo5.jpg);
 	background-repeat: no-repeat;
+	padding-bottom: 18%;
+	padding-top: 12%;
 	background-size: cover;
-	padding-bottom: 10%;
 }
 #size-span{
 	font-size: 49px;
 }
 .box-c{
 	border: 1px solid white;
-	padding-top: 8%;
-	padding-bottom: 8%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.footer{
+	position: fixed;
+	bottom:0;
 }
