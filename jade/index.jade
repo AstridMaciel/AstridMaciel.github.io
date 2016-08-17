@@ -1,0 +1,46 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(href="css/bootstrap-theme.min.css" rel="stylesheet")
+        link(href="css/bootstrap.min.css" rel="stylesheet")
+        link(href="css/font-awesome.css" rel="stylesheet")
+        link(href="css/ionicons.css" rel="stylesheet")
+        link(href="css/ionicons.min.css" rel="stylesheet")
+        link(rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css")
+        link(href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css')
+        link(href="slider/css/style.css" rel="stylesheet")
+        link(href="css/main.css" rel="stylesheet")
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/ScrollToPlugin.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TimelineMax.min.js")
+        script(src="js/main2.js")
+        script(src="js/jquery.js")
+        script(src="js/bootstrap.min.js")
+        script(src="js/main.js")
+        script(src="slider/js/modernizr.custom.04022.js")
+    body
+    header.bcg-1
+        .shadow
+            .container.menu
+                .row.text-center#main_menu
+                    h1#name ASTRID TINTAYA
+                    .col-md-3
+                        a.highvoltage.lista-menu(href="#sobre-mi") SOBRE MI
+                    .col-md-3
+                        a.highvoltage.lista-menu(href="#habilidades") HABILIDADES
+                    .col-md-3
+                        a.highvoltage.lista-menu(href="#portafolio") PORTAFOLIO
+                    .col-md-3
+                        a.highvoltage.lista-menu(href="#contacto") CONTACTO
+    include sobre-mi.jade
+    include habilidades.jade
+    include portafolio.jade
+    include contacto.jade
+                

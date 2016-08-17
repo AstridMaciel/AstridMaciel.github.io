@@ -1,0 +1,108 @@
+@font-face {
+    font-family:"highvoltage";
+    src: url(../fonts/highvoltage.ttf) format("truetype");
+   	font-weight: normal;    font-style: normal;
+}
+@font-face {
+    font-family:"Wingding Review";
+    src: url(../fonts/Wingding_Review.ttf) format("truetype");
+   	font-weight: normal;    font-style: normal;
+}
+h1, h4 {
+	font-family: "highvoltage";
+}
+h2, h3, p{
+	font-family: "Marvel";
+}
+.highvoltage{
+	font-family: "highvoltage";
+}
+.bcg-1{
+	background-image: url(../img/fondo1.png);
+	background-repeat: repeat;
+	background-size: cover; 
+	margin: 0;
+	padding: 0;
+}
+.shadow{
+	background-color: rgba(1, 1, 1, 0.5);
+}
+.menu{
+	padding-top: 25%;
+	padding-bottom: 18%;
+}
+#name{
+	font-size: 5em;
+	color: #fff;
+}
+.lista-menu{
+	font-size: 2em;
+	text-decoration-line: none;
+	color:#000;
+}
+.lista-menu:hover{
+	font-size: 2.5em;
+	text-decoration:none;
+	color:#fff;
+}
+.bcg-2{
+	background-image: url(../img/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box{
+	padding-top: 16%;
+	padding-bottom: 8%;
+}
+#main_menu a:hover, #main_menu a.active
+{
+	color:#fff;
+}
+.section
+{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+}
+.span{
+	font-size: 20px;
+}
+.btn-a{
+	margin-top: 15%;
+}
+a.none{
+	text-decoration: none;
+	color: #fff;
+}
+.bcg-3{
+	background-image: url(../img/fondo3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.shadow-1{
+	background-color: rgba(1, 1, 1, 0.5);
+	margin-top: 15%;
+	margin-bottom: 10%;
+}
+.bcg-4{
+	background-image: url(../img/fondo4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 10%;
+}
+.bcg-5{
+	background-image: url(../img/fondo5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 10%;
+}
+#size-span{
+	font-size: 49px;
+}
+.box-c{
+	border: 1px solid white;
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
