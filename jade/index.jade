@@ -13,6 +13,7 @@ html
         link(href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css')
         link(href="slider/css/style.css" rel="stylesheet")
         link(href="css/main.css" rel="stylesheet")
+        link(href="css/media.css" rel="stylesheet")
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
         script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js")
         script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/ScrollToPlugin.min.js")
@@ -26,7 +27,23 @@ html
         script(src="js/main.js")
         script(src="slider/js/modernizr.custom.04022.js")
     body
-    header.bcg-1
+    header.bcg-1#index
+        ul#main_menu.list-unstyled.span_menu
+            li
+                a(href="#index")
+                    span#span_color.ion-ios-home
+            li
+                a(href="#sobre-mi")
+                    span#span_color.ion-android-bulb
+            li
+                a(href="#habilidades")
+                    span#span_color.ion-ios-color-wand
+            li
+                a(href="portafolio")
+                    span#span_color.ion-document
+            li
+                a(href="#contacto")
+                    span#span_color.ion-android-contact
         .shadow
             .container.menu
                 .row.text-center#main_menu

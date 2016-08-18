@@ -51,7 +51,7 @@ h2, h3, p{
 	background-size: cover;
 }
 .box{
-	padding-top: 16%;
+	padding-top: 9%;
 	padding-bottom: 8%;
 }
 #main_menu a:hover, #main_menu a.active
@@ -69,9 +69,6 @@ h2, h3, p{
 .span{
 	font-size: 20px;
 }
-.btn-a{
-	margin-top: 15%;
-}
 a.none{
 	text-decoration: none;
 	color: #fff;
@@ -80,19 +77,22 @@ a.none{
 	background-image: url(../img/fondo3.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-bottom: 4%;
 }
 .shadow-1{
 	background-color: rgba(1, 1, 1, 0.5);
-	margin-top: 15%;
-	margin-bottom: 5%;
-	padding-bottom: 2%;
+	margin-top: 8%;
+	margin-bottom: 2%;
+	padding-bottom: 4%;
 }
 .bcg-4{
 	background-image: url(../img/fondo4.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-bottom: 3%;
-
+}
+#mb{
+	margin-bottom: 10px;
 }
 .bcg-5{
 	background-image: url(../img/fondo5.jpg);
@@ -112,4 +112,20 @@ a.none{
 .footer{
 	position: fixed;
 	bottom:0;
+}
+.span_menu{
+	position: fixed;
+	left:0;
+	z-index: 1000;
+	font-size: 30px;
+	margin-left: 10px;
+}
+.span_menu a{
+	color: #fff;
+}
+.span_menu a:hover{
+	font-size: 40px;
+}
+#span_color:hover{
+color: #823aa0;
 }
