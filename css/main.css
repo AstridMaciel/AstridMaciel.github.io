@@ -52,7 +52,7 @@ h2, h3, p{
 }
 .box{
 	padding-top: 9%;
-	padding-bottom: 8%;
+	padding-bottom: 12%;
 }
 #main_menu a:hover, #main_menu a.active
 {
@@ -77,7 +77,7 @@ a.none{
 	background-image: url(../img/fondo3.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-bottom: 4%;
+	padding-bottom: 6%;
 }
 .shadow-1{
 	background-color: rgba(1, 1, 1, 0.5);
