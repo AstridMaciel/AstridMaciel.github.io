@@ -1,4 +1,4 @@
-$(document).ready(initPage);
+/*$(document).ready(initPage);
 
 function initPage()
 {
@@ -54,4 +54,4 @@ function initScrollMagic()
     	triggerElement: '#contacto'
 	})
 	.setTween(contactoTween)
-}
+}*/

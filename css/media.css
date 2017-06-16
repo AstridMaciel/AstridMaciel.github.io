@@ -1,9 +1,0 @@
-@media (min-width: 400px) and (max-width: 800px){
-	.span_menu{
-		visibility: hidden;
-	}
-	.btn-g{
-		width: 30px;
-		height: 200px;
-	}	
-}
