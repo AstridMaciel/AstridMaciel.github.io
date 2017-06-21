@@ -41,7 +41,6 @@ h1{
 #second-part{
 	background: url('../img/fondo6.jpg') center / cover no-repeat;
 }
-
 #second-part li{
 	font-size: 32px;
 	margin-left: 15px;
@@ -52,4 +51,30 @@ h1{
 }
 #second-part a:hover{
 	color: #802c4d;
+}
+#third-part{
+	background: url('../img/fondo4.jpg') center / cover no-repeat
+}
+#fourth-part{
+	background: url('../img/fondo5.jpg') center / cover no-repeat
+}
+#img-social{
+	margin-bottom: -5px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+#social-icons{
+	font-size: 100px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.ion-social-html5{
+	color: #f35200;
+}
+.ion-social-css3{
+	color: #0070ba;
+}
+.carousel{
+	width: 70%;
+	margin: auto;
 }
